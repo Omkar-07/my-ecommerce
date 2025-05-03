@@ -1,0 +1,14 @@
+export interface Product{
+    name: string;
+    img: string;
+    description: string;
+    price: number;
+    id ?: number;
+  }
+
+  export interface Addresses{
+    id?:number;
+    city: string;
+    state?: string;
+    country?: string;
+  }
